@@ -23,13 +23,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-primary text-primary-foreground p-2 rounded-lg">
-              <span className="text-xl font-bold">N</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="text-lg font-bold text-foreground">Dr. Neha's</h1>
-              <p className="text-xs text-muted-foreground">Dental Care</p>
-            </div>
+            <img 
+              src="/lovable-uploads/f778d130-63de-484e-855d-3599566c4a60.png" 
+              alt="Dr. Neha's Dental Care Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
