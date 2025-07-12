@@ -13,12 +13,12 @@ import {
 
 const Contact = () => {
   const handlePhoneCall = () => {
-    window.open("tel:+919876543210", "_self");
+    window.open("tel:+919766606154", "_self");
   };
 
   const handleWhatsApp = () => {
     const message = "Hi! I'd like to get in touch with Dr. Neha's Dental Care.";
-    const whatsappUrl = `https://wa.me/+919876543210?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+919766606154?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -77,7 +77,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-foreground">Phone</h3>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 97666 06154</p>
                       <p className="text-sm text-primary">Click to call</p>
                     </div>
                   </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-foreground">WhatsApp</h3>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 97666 06154</p>
                       <p className="text-sm text-green-600">Message us instantly</p>
                     </div>
                   </div>
@@ -251,7 +251,7 @@ const Contact = () => {
                   className="w-full bg-white text-red-600 hover:bg-white/90"
                 >
                   <Phone className="mr-2 h-4 w-4" />
-                  Emergency: +91 98765 43210
+                  Emergency: +91 97666 06154
                 </Button>
               </CardContent>
             </Card>
