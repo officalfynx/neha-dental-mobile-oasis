@@ -15,7 +15,7 @@ import {
 
 const Services = () => {
   const handleBookService = (service: string) => {
-    const message = `Hi! I'd like to book an appointment for ${service} at Neha Dental Clinic.`;
+    const message = `Hi! I'd like to book an appointment for ${service} at Dr. Neha's Dental Care.`;
     const whatsappUrl = `https://wa.me/+919876543210?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };

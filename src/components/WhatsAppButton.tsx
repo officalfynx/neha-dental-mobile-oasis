@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
   const whatsappNumber = "+919876543210"; // Replace with actual clinic number
-  const message = "Hi! I'd like to book an appointment at Neha Dental Clinic.";
+  const message = "Hi! I'd like to book an appointment at Dr. Neha's Dental Care.";
   
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;

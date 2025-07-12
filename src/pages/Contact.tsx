@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   const handleWhatsApp = () => {
-    const message = "Hi! I'd like to get in touch with Neha Dental Clinic.";
+    const message = "Hi! I'd like to get in touch with Dr. Neha's Dental Care.";
     const whatsappUrl = `https://wa.me/+919876543210?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -28,7 +28,7 @@ const Contact = () => {
 
   const handleDirections = () => {
     // Replace with actual Google Maps link for the clinic
-    const address = "Neha Dental Clinic, Kandev Nagar, Pune, Maharashtra";
+    const address = "Dr. Neha's Dental Care, Kandev Nagar, Pune, Maharashtra";
     const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
     window.open(mapsUrl, "_blank");
   };
@@ -179,7 +179,7 @@ const Contact = () => {
                 </h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-foreground text-lg">Neha Dental Clinic</h4>
+                    <h4 className="font-semibold text-foreground text-lg">Dr. Neha's Dental Care</h4>
                     <p className="text-muted-foreground leading-relaxed">
                       Shop No. 15, Ground Floor<br />
                       Kandev Nagar, Near City Mall<br />

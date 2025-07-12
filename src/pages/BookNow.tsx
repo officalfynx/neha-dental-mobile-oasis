@@ -13,7 +13,7 @@ import {
 
 const BookNow = () => {
   const handleWhatsAppBooking = () => {
-    const message = "Hi! I'd like to book an appointment at Neha Dental Clinic. Could you please help me with available slots?";
+    const message = "Hi! I'd like to book an appointment at Dr. Neha's Dental Care. Could you please help me with available slots?";
     const whatsappUrl = `https://wa.me/+919876543210?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -245,7 +245,7 @@ const BookNow = () => {
                   Location
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Neha Dental Clinic<br />
+                  Dr. Neha's Dental Care<br />
                   123, Kandev Nagar<br />
                   Pune, Maharashtra 411014
                 </p>
