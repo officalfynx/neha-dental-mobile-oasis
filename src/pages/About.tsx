@@ -17,7 +17,7 @@ const About = () => {
   const achievements = [
     {
       icon: GraduationCap,
-      title: "BDS, MDS",
+      title: "BDS",
       description: "Advanced degree in Conservative Dentistry"
     },
     {
@@ -87,7 +87,7 @@ const About = () => {
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 Dr. Neha is a highly qualified dental professional with over 8 years of experience 
                 in providing comprehensive dental care. She completed her Bachelor of Dental Surgery (BDS) 
-                from a prestigious dental college and further specialized with a Master's degree (MDS) 
+                from a prestigious dental college and further specialized 
                 in Conservative Dentistry and Endodontics.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
@@ -111,7 +111,7 @@ const About = () => {
                   <span className="text-4xl font-bold text-primary">DN</span>
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">Dr. Neha Sharma</h3>
-                <p className="text-primary font-semibold mb-4">BDS, MDS - Conservative Dentistry</p>
+                <p className="text-primary font-semibold mb-4">BDS - Conservative Dentistry</p>
                 <p className="text-muted-foreground">
                   "Your smile is my priority"
                 </p>
