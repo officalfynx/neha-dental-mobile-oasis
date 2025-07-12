@@ -26,7 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
+				},
+				dental: {
+					teal: 'hsl(var(--dental-teal))',
+					'teal-light': 'hsl(var(--dental-teal-light))',
+					'teal-dark': 'hsl(var(--dental-teal-dark))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',

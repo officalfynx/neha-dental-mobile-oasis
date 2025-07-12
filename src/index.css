@@ -8,17 +8,23 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Dental clinic theme - clean white and teal */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 220 13% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 13% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 13% 18%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 175 81% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 175 70% 65%;
+    
+    --dental-teal: 175 81% 42%;
+    --dental-teal-light: 175 70% 65%;
+    --dental-teal-dark: 175 90% 35%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
