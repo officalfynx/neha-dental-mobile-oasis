@@ -87,8 +87,7 @@ const About = () => {
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 Dr. Neha is a highly qualified dental professional with over 8 years of experience 
                 in providing comprehensive dental care. She completed her Bachelor of Dental Surgery (BDS) 
-                from a prestigious dental college and further specialized 
-                in Conservative Dentistry and Endodontics.
+                from a prestigious dental college.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 Her passion for dentistry stems from her belief that a healthy smile can transform 
