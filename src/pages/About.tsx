@@ -82,7 +82,7 @@ const About = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl font-bold text-foreground mb-4">
-                Meet Dr. Neha Sharma
+                Meet Dr. Neha Prithviraj Thorat
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 Dr. Neha is a highly qualified dental professional with over 8 years of experience 
@@ -110,7 +110,7 @@ const About = () => {
                 <div className="w-32 h-32 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-6">
                   <span className="text-4xl font-bold text-primary">DN</span>
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">Dr. Neha Sharma</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Dr. Neha Prithviraj Thorat</h3>
                 <p className="text-primary font-semibold mb-4">BDS - Conservative Dentistry</p>
                 <p className="text-muted-foreground">
                   "Your smile is my priority"
